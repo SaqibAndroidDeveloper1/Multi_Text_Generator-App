@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#39CCCCCC"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+<EditText
+     android:id="@+id/Textfield"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:layout_marginTop="120dp"
+android:layout_marginLeft="20dp"
+    android:hint="Enter Your Text"
+    android:layout_marginRight="20dp"
+     android:background="@drawable/input_design"
+/>
+
+    <TextView
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Textfield"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+
+        android:layout_marginRight="20dp"
+ />
+
+
+
+    <Spinner
+
+        android:id="@+id/Textfield1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/view"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+
+        android:layout_marginRight="20dp"
+       />
+
+    <Button
+        android:id="@+id/Done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Textfield1"
+android:text="Generate"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+         android:background="@drawable/input_design"
+        android:layout_marginBottom="50dp" />
+    <EditText
+        android:id="@+id/Textfield2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Done"
+        android:layout_marginTop="30dp"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+    </LinearLayout>
+</ScrollView>
